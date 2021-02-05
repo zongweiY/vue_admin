@@ -35,8 +35,8 @@ export default {
       return {
         ///表单登录数据数据
         form: {
-            username: 'zs',
-            password: '123'
+            username: 'yangzongwei',
+            password: '1'
         },
         ///表单校验对象
         rules: {

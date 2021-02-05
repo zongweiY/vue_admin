@@ -3,3 +3,11 @@ html,body,#app{
     padding: 0;
     height: 100%;
 }
+/* 全局css  在这里可以个性化 修改一些elementui的样式 */
+.el-breadcrumb{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.el-row{
+    margin-bottom: 15px;
+}
