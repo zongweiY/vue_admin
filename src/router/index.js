@@ -28,6 +28,16 @@ const routes = [
         path: '/users',
         name: 'Users',
         component: () => import(/* webpackChunkName: "about" */ '../components/user/users.vue')
+      },
+      {
+        path: '/permission',
+        name: 'Permission',
+        component: () => import(/* webpackChunkName: "about" */ '../components/permission/permission.vue')
+      },
+      {
+        path: '/roles',
+        name: 'Roles',
+        component: () => import(/* webpackChunkName: "about" */ '../components/permission/roles.vue')
       }
     ]
   }

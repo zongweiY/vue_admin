@@ -3,6 +3,32 @@ html,body,#app{
     padding: 0;
     height: 100%;
 }
+
+/* .el-header {
+    position: relative;
+    width: 100%; 
+}
+.el-aside {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+}
+.el-main {
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 60px;
+    bottom: 60px;
+    overflow-y: scroll;
+}
+.el-footer {
+    position: fixed;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+} */
 /* 全局css  在这里可以个性化 修改一些elementui的样式 */
 .el-breadcrumb{
     font-size: 12px;

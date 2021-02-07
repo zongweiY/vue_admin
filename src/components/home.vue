@@ -118,6 +118,10 @@
                     title: '权限管理',
                     subs: [
                         {
+                            index: 'roles',
+                            title: '角色列表'
+                        },
+                        {
                             index: 'permission',
                             title: '权限列表'
                         }
