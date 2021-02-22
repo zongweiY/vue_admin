@@ -163,8 +163,8 @@
                     title: '数据统计',
                     subs: [
                         {
-                            index: 'total',
-                            title: '统计'
+                            index: 'reports',
+                            title: '数据报表'
                         }
                     ]
                 }        
