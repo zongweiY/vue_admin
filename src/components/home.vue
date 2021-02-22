@@ -149,11 +149,11 @@
                 {
                     icon: 'el-icon-menu',
                     index: '9',
-                    title: '角色管理',
+                    title: '订单管理',
                     subs: [
                         {
-                            index: 'role',
-                            title: '角色列表'
+                            index: 'order',
+                            title: '订单列表'
                         }
                     ]
                 },
