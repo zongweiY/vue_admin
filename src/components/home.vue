@@ -130,11 +130,19 @@
                 {
                     icon: 'el-icon-menu',
                     index: '8',
-                    title: '订单管理',
+                    title: '商品管理',
                     subs: [
                         {
-                            index: 'order',
-                            title: '订单列表'
+                            index: 'goods',
+                            title: '商品列表'
+                        },
+                        {
+                            index: 'categories',
+                            title: '商品分类'
+                        },
+                        {
+                            index: 'params',
+                            title: '分类参数'
                         }
                     ]
                 },

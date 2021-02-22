@@ -38,6 +38,26 @@ const routes = [
         path: '/roles',
         name: 'Roles',
         component: () => import(/* webpackChunkName: "about" */ '../components/permission/roles.vue')
+      },
+      {
+        path: '/categories',
+        name: 'Categories',
+        component: () => import(/* webpackChunkName: "about" */ '../components/cate/categories.vue')
+      },
+      {
+        path: '/params',
+        name: 'Params',
+        component: () => import(/* webpackChunkName: "about" */ '../components/cate/params.vue')
+      },
+      {
+        path: '/goods',
+        name: 'Goods',
+        component: () => import(/* webpackChunkName: "about" */ '../components/cate/goods.vue')
+      },
+      {
+        path: '/goods/add',
+        name: 'Add',
+        component: () => import(/* webpackChunkName: "about" */ '../components/cate/add.vue')
       }
     ]
   }
